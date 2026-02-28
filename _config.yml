@@ -6,9 +6,10 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
+name: 王树东
+title: 嵌入式/蓝牙/tws耳机 软件开发
+email: wangshu_d@126.com
+phone: 15818738013
 website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)

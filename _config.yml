@@ -62,7 +62,7 @@ content:
   - title: 专业技能 # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      # - layout: top-middle
+      - layout: top-middle
       #   title: Super awesome project
       #   link: github.com/sproogen
         # link_text: Project Website
@@ -75,7 +75,7 @@ content:
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
       #  quote: >
       #    This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-      description: | # this will include new lines to allow paragraphs
+        description: | # this will include new lines to allow paragraphs
         ● 语言：
         精通c语言，熟练掌握嵌入式系统的开发、生产流程。
         熟悉汇编语言、c++、Python等，能完成简单的开发、维护和调试。

@@ -49,15 +49,10 @@ additional_links:
 about_title: 关于我
 about_profile_image: images/sd.jpg
 about_content: | # this will include new lines to allow paragraphs
-  10年+嵌入式软件开发经验，专注于蓝牙音频与物联网方案开发。
-
-  精通杰理7016系列蓝牙平台深度开发，在翻译耳机领域积累了丰富的量产经验。
-
-  具备从需求分析到量产交付的全流程项目经验，累计主导/参与超过5款 tws 翻译耳机量产，20+ USB、音频、2.4g消费类电子产品的量产落地。
-
-  善于将复杂需求转化为稳定可靠的产品方案，擅长跨团队（产品、APP、硬件、算法、生产）协作与解决开发、量产过程中的技术难题。
-
-
+  - 10年+嵌入式软件开发经验，专注于蓝牙音频与物联网方案开发。
+  - 精通杰理7016系列蓝牙平台深度开发，在翻译耳机领域积累了丰富的量产经验。
+  - 具备从需求分析到量产交付的全流程项目经验，累计主导/参与超过5款 tws 翻译耳机量产，20+ USB、音频、2.4g消费类电子产品的量产落地。
+  - 善于将复杂需求转化为稳定可靠的产品方案，擅长跨团队（产品、APP、硬件、算法、生产）协作与解决开发、量产过程中的技术难题。
 content:
   - title: 专业技能 # Title for the section
     layout: list # Type of content section (list/text)
@@ -76,7 +71,6 @@ content:
         # quote: >
          # This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
-          description: |
           **语言**：精通 C 语言，熟练掌握嵌入式系统的开发、生产流程。熟悉汇编语言、C++、Python 等，能完成简单的开发、维护和调试。
 
           **芯片及架构**：熟练使用常见芯片架构的开发，包括：ARM M0、M3、M4, RISC-V 等，使用的芯片包括新唐、ST（国产芯片）、Telink、Nordic、瑞昱等。

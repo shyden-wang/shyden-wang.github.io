@@ -95,7 +95,7 @@ content:
         title: 河南理工大学
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: '自动化   本科'
+        sub_title: "自动化   本科"
         caption: 2011年9月 - 2015年6月
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -107,7 +107,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: “W4 Pro翻译耳机“
+        title: "W4 Pro翻译耳机"
         caption: 2023年8月 - 2024年10月
         # sub_title: BSc Computer Science
         quote: >

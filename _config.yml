@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
   - 善于将复杂需求转化为稳定可靠的产品方案，擅长跨团队（产品、APP、硬件、算法、生产）协作与解决开发、量产过程中的技术难题。
 content:
   - title: 专业技能 # Title for the section
-    # layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
       - layout: left
         #: Super awesome project

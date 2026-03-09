@@ -95,7 +95,7 @@ content:
         title: 河南理工大学
         # link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: “自动化   本科”
+        sub_title: '自动化   本科'
         caption: 2011年9月 - 2015年6月
         # quote: >
           # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -107,15 +107,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: “W4 Pro翻译耳机
+        title: “W4 Pro翻译耳机“
         caption: 2023年8月 - 2024年10月
         # sub_title: BSc Computer Science
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          作为项目负责人，从0到1，主导了从需求分析、方案设计、开发实现到量产交付的全过程，成功实现了基于杰理7016平台的翻译耳机产品的量产交付。
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          - 负责项目的整体规划和管理，协调跨部门团队（包括产品、APP、硬件、算法、生产）高效协作，确保项目按时交付。
+          - 设计并实现了基于杰理7016平台的翻译耳机软件架构，优化了系统性能和稳定性，提升了用户体验。
+          - 解决了开发和量产过程中遇到的技术难题，确保了产品的高质量和可靠性。
+          - 成功实现了翻译耳机的量产交付，获得了客户的高度评价和市场的积极反馈。
 
   - title: A Little More About Me
     layout: text

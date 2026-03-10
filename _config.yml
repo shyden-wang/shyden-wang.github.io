@@ -150,7 +150,7 @@ content:
           - 开发新的充电方案，去掉智能仓功能， 适配普通充电仓，同时具有串口通信功能。
           - 开发新的骨导芯片方案，调试tdm驱动，打通音频流，测试稳定性导入到算法端。
           - 开发新的产测方案，mic测试、spk测试、骨导测试。
-          - 开发ble dtm认证方案，通过小牛与CWM500连接射频测试，遇到接收丢包（PER)概率失败问题，定位到芯片问题。
+          - 开发ble dtm认证方案，通过小牛与CMW500连接射频测试，遇到接收丢包（PER)概率失败问题，定位到芯片问题。
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs

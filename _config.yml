@@ -110,8 +110,10 @@ content:
         title: "W4 Pro翻译耳机"
         caption: 2023年8月 - 2025年3月
         # sub_title: BSc Computer Science
-        quote: >
+        quote: |
+          <div style="text-align: left;">
           项目负责人，从0到1，主导了从需求分析、方案设计、开发实现到量产交付的全过程，成功实现了基于杰理7016平台的翻译耳机产品的量产交付。
+          </div>
         description: | # this will include new lines to allow paragraphs
           - 负责项目的整体规划和管理，协调跨部门团队（包括产品、APP、硬件、算法、生产）高效协作，确保项目按时交付。
           - 基于杰理7016平台，实现了基本tws耳机功能。

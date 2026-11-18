@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#163e37">
+  <title>王树东｜嵌入式软件 · 蓝牙音频</title>
+  <meta name="description" content="王树东的个人简历：10 年以上嵌入式软件开发经验，专注蓝牙音频、TWS 翻译耳机、BLE 通信、音频驱动与量产交付。">
+  <meta property="og:title" content="王树东｜嵌入式软件 · 蓝牙音频">
+  <meta property="og:description" content="从音频链路、无线通信，到产品量产。10 年以上嵌入式软件开发经验。">
+  <meta property="og:type" content="profile">
+  <meta property="og:url" content="https://shyden-wang.github.io/">
+  <link rel="canonical" href="https://shyden-wang.github.io/">
+  <link rel="stylesheet" href="assets/resume.css">
+  <script src="assets/resume.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至简历内容</a>
+  <header class="site-header">
+    <a class="wordmark" href="#main" aria-label="王树东，返回顶部">W<span>.</span> / 王树东</a>
+    <nav aria-label="页面导航"><a href="#projects">项目经历</a><a href="#skills">专业技能</a><a href="#contact">联系我</a></nav>
+    <button class="print-button" type="button" id="print">打印 / 存为 PDF <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="name">
+      <div class="hero-main">
+        <p class="eyebrow">EMBEDDED SOFTWARE / BLUETOOTH AUDIO</p>
+        <h1 id="name">王树东<span>嵌入式软件 · 蓝牙音频</span></h1>
+        <p class="lead">从音频链路、无线通信，<br>到产品量产。</p>
+        <p class="intro">10 年以上嵌入式软件开发经验，专注蓝牙音频与物联网。深耕杰理 7016 平台，具备从需求分析、方案设计、固件开发到产测导入的完整交付经验。</p>
+        <div class="hero-links"><a class="primary-link" href="mailto:wangshu_d@126.com">邮件联系 <span aria-hidden="true">↗</span></a><a href="https://github.com/shyden-wang" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <aside class="profile-summary" aria-label="核心经验">
+        <p class="small-label">工程实践 / EXPERIENCE</p>
+        <div class="stat"><strong>10<span>年+</span></strong><p>嵌入式软件开发经验</p></div>
+        <div class="stat"><strong>5<span>款以上</span></strong><p>主导 / 参与 TWS 翻译耳机量产</p></div>
+        <div class="stat"><strong>20<span>+</span></strong><p>USB、音频及 2.4G 消费电子产品量产</p></div>
+        <p class="summary-note">C / BLE / TWS / USB Audio / RTOS</p>
+      </aside>
+    </section>
+
+    <section class="section projects" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="projects-title">项目经历</h2><p>围绕真实产品，解决音频、连接与量产中的具体问题。</p></div>
+      <article class="project">
+        <div class="project-meta"><p class="date">2025.11 — 2026.05</p><h3>X1 Pro 翻译耳机</h3><p class="role">项目负责人</p><div class="tags"><span>BLE</span><span>TDM</span><span>OTA</span><span>射频测试</span></div></div>
+        <div class="project-body"><p class="project-intro">面向翻译主机的 BLE 耳机方案。基于 W4 平台进行功能裁剪，适配充电仓、骨导音频与生产测试。</p>
+          <ul>
+            <li><strong>通信与升级：</strong>裁剪经典蓝牙可发现、可连接功能，保留用于双 Bank 升级的 TWS 链路；实现开盖 BLE 连接、入仓组队检查及 OTA 流程。</li>
+            <li><strong>硬件适配：</strong>完成普通充电仓与串口通信方案，调试新骨导芯片的 TDM 驱动，打通从音频采集到算法输入的链路。</li>
+            <li><strong>测试与认证：</strong>开发麦克风、扬声器和骨导产测；完成 BLE DTM 射频测试方案，联调 CMW500，将偶发接收丢包率（PER）测试失败定位至芯片问题。</li>
+            <li><strong>体验优化：</strong>适配翻译主机通信，优化 BLE 连接速度与功耗续航。</li>
+          </ul>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-meta"><p class="date">2025.03 — 2025.11</p><h3>W4 翻译耳机</h3><p class="role">项目负责人</p><div class="tags"><span>I²S / PDM</span><span>Opus</span><span>自动化压测</span></div></div>
+        <div class="project-body"><p class="project-intro">在 W4 Pro 平台上迭代骨导音频与双路 Opus 传输，重点解决多时钟音频对齐与低概率断连。</p>
+          <div class="results"><p><strong>≤ 8 ms</strong><span>音频对齐差值</span></p><p><strong>60 小时</strong><span>连续压测无断连</span></p><p><strong>4 路 · 16 kHz</strong><span>串口音频导出</span></p></div>
+          <ul>
+            <li><strong>多源音频同步：</strong>开发骨导芯片 I²S / TDM 驱动与音频对齐算法，将 I²S 与 PDM 时钟差异导致的音频差值控制在 8 ms 内；深入 PDM 驱动调整增益，解决输出音量偏小问题。</li>
+            <li><strong>音频传输与调试：</strong>接入双路 Opus 编码及传输方案，降低带宽压力；通过串口导出 4 路 16 kHz 音频，支持算法联调。</li>
+            <li><strong>稳定性攻关：</strong>协助原厂排查 SDK v1 至 v3 升级中的内核问题；定位天线与 SDK 引起的 BLE 偶发断连，开发自动化压测用例，实现连续 60 小时无断连。</li>
+          </ul>
+        </div>
+      </article>
+      <article class="project">
+        <div class="project-meta"><p class="date">2023.08 — 2025.03</p><h3>W4 Pro 翻译耳机</h3><p class="role">项目负责人 · 从 0 到量产</p><div class="tags"><span>杰理 7016</span><span>BT + BLE</span><span>音频 Pipeline</span><span>产测</span></div></div>
+        <div class="project-body"><p class="project-intro">主导需求分析、方案设计、开发与量产交付，协调产品、APP、硬件、算法及生产团队，完成翻译耳机产品落地。</p>
+          <ul>
+            <li><strong>翻译音频链路：</strong>基于音频 Pipeline 实现音视频翻译、电话翻译和同传翻译；在经典蓝牙传输音频的同时，通过 BLE 传输多路 Opus 压缩音频。</li>
+            <li><strong>整机功能：</strong>实现触摸、提示音、入耳检测、ENC、OTA 及蓝牙配置，开发智能充电仓配套方案与充电、开关机流程。</li>
+            <li><strong>系统优化：</strong>协助算法移植、线程资源优化及双核资源分配；排查场景切换断连与死机，优化 Android / iOS 连接、通信稳定性、异步算法处理与功耗。</li>
+            <li><strong>量产导入：</strong>开发串口产测指令、BLE 测试音频传输与三麦克风校准，推进烧录导入及蓝牙认证；基于 AES 与认证码实现算法授权校验。</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading"><p class="eyebrow">02 / TECHNICAL EXPERTISE</p><h2 id="skills-title">专业技能</h2></div>
+      <dl class="skill-list">
+        <div><dt>蓝牙与音频</dt><dd>经典蓝牙、BLE 应用与通信协议、TWS、2.4G；USB Audio + Codec 方案开发；多路音频链路、Opus 接入及音频同步。</dd></div>
+        <div><dt>平台与驱动</dt><dd>杰理 7016；ARM Cortex-M0 / M3 / M4、RISC-V；新唐、ST、Telink、Nordic、瑞昱等平台。UART、USB、I²C、SPI、I²S、TDM、PDM 外设开发与调试。</dd></div>
+        <div><dt>固件与系统</dt><dd>精通 C；熟悉 C++、Python 与汇编，可进行基础开发和维护。熟悉 μC/OS、RT-Thread 应用开发及任务调度原理；具备 Bootloader、USB 固件升级和上位机联调经验。</dd></div>
+        <div><dt>工程与交付</dt><dd>模块分层与低耦合接口设计、可复用代码积累、自动化压测、产测与认证。能阅读中英文技术文档，具备原理图设计、焊接与 PCB 调试能力，协同 APP、硬件、算法及生产团队解决问题。</dd></div>
+        <div><dt>开发工具</dt><dd>Git、VS Code、Eclipse、Keil、Altium Designer；使用 Python / C++ 辅助调试与工具开发。</dd></div>
+      </dl>
+    </section>
+
+    <section class="section education" aria-labelledby="education-title">
+      <div class="section-heading"><p class="eyebrow">03 / EDUCATION</p><h2 id="education-title">教育背景</h2></div>
+      <div><div class="education-line"><h3>河南理工大学 <span>自动化 · 本科</span></h3><p class="date">2011.09 — 2015.06</p></div><p>多次获得奖学金，参与学院实验室工作。全国大学生电子设计大赛省级三等奖。</p></div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">LET’S CONNECT</p><h2 id="contact-title">聊聊蓝牙音频与嵌入式开发。</h2></div><address><a href="mailto:wangshu_d@126.com">wangshu_d@126.com <span aria-hidden="true">↗</span></a><a href="tel:+8615818738013">158 1873 8013</a><a href="https://github.com/shyden-wang" target="_blank" rel="noopener noreferrer">github.com/shyden-wang</a></address></section>
+  </main>
+  <footer><span>王树东 / 个人简历</span><a href="#main">返回顶部 ↑</a></footer>
+</body>
+</html>

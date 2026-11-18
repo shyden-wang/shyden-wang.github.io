@@ -8,3 +8,4 @@ exclude:
   - REVIEW.md
   - Gemfile
   - Gemfile.lock
+  - assets/main.scss

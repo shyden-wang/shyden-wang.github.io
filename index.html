@@ -46,7 +46,8 @@
         <div class="project-body"><p class="project-intro">负责 TWS 翻译耳机固件开发与项目交付，担任 W4 Pro、W4、X1 Pro 项目负责人。</p><ul>
           <li><strong>TWS 基础功能：</strong>基于杰理 7016 平台开发触摸操作、LED 状态指示、提示音、入耳检测及开关机流程，完成耳机日常交互与状态联动。</li>
           <li><strong>连接与升级：</strong>开发与调试 TWS 组队、蓝牙双连接、BT / BLE 通信及 APP 联调功能；实现 OTA 固件升级，处理连接、场景切换及升级流程中的稳定性问题。</li>
-          <li><strong>充电与音频：</strong>开发充电仓通信、入仓／出仓及充电流程，优化功耗；搭建翻译音频链路，完成骨导音频驱动开发与多路音频同步。</li>
+          <li><strong>核心翻译功能：</strong>基于音频 Pipeline 开发电话翻译、音视频翻译及同传翻译，搭建多场景音频链路；实现经典蓝牙音频与 BLE 多路 Opus 音频并行传输，处理场景切换中的连接与音频稳定性问题。</li>
+          <li><strong>充电与音频驱动：</strong>开发充电仓通信、入仓／出仓及充电流程，优化功耗；完成骨导音频驱动开发与多路音频同步。</li>
           <li><strong>测试与量产：</strong>开发自动化压测与产测方案，定位低概率断连、死机及量产问题，推进认证和生产导入；协同产品、APP、硬件、算法及生产团队完成交付。</li>
         </ul></div>
       </article>
@@ -91,9 +92,9 @@
       </article>
       <article class="project">
         <div class="project-meta"><p class="date">2023.08 — 2025.03</p><h3>W4 Pro 翻译耳机</h3><p class="role">项目负责人 · 从 0 到量产</p><div class="tags"><span>杰理 7016</span><span>BT + BLE</span><span>音频 Pipeline</span><span>产测</span></div></div>
-        <div class="project-body"><p class="project-intro">主导需求分析、方案设计、开发与量产交付，协调产品、APP、硬件、算法及生产团队，完成翻译耳机产品落地。</p>
+        <div class="project-body"><p class="project-intro">以电话翻译、音视频翻译及同传翻译为核心场景，主导音频方案设计、固件开发与量产交付，协调产品、APP、硬件、算法及生产团队完成产品落地。</p>
           <ul>
-            <li><strong>翻译音频链路：</strong>基于音频 Pipeline 实现音视频翻译、电话翻译和同传翻译；在经典蓝牙传输音频的同时，通过 BLE 传输多路 Opus 压缩音频。</li>
+            <li><strong>三类翻译场景：</strong>基于音频 Pipeline 搭建电话翻译、音视频翻译及同传翻译的音频链路；在经典蓝牙传输音频的同时，通过 BLE 传输多路 Opus 压缩音频，支持翻译功能与 APP 联调。</li>
             <li><strong>整机功能：</strong>实现触摸、提示音、入耳检测、ENC、OTA 及蓝牙配置，开发智能充电仓配套方案与充电、开关机流程。</li>
             <li><strong>系统优化：</strong>协助算法移植、线程资源优化及双核资源分配；排查场景切换断连与死机，优化 Android / iOS 连接、通信稳定性、异步算法处理与功耗。</li>
             <li><strong>量产导入：</strong>开发串口产测指令、BLE 测试音频传输与三麦克风校准，推进烧录导入及蓝牙认证；基于 AES 与认证码实现算法授权校验。</li>

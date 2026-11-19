@@ -18,7 +18,7 @@
   <a class="skip-link" href="#main">跳至简历内容</a>
   <header class="site-header">
     <a class="wordmark" href="#main" aria-label="王树东，返回顶部">W<span>.</span> / 王树东</a>
-    <nav aria-label="页面导航"><a href="#projects">项目经历</a><a href="#skills">专业技能</a><a href="#contact">联系我</a></nav>
+    <nav aria-label="页面导航"><a href="#experience">工作经历</a><a href="#projects">项目经历</a><a href="#skills">专业技能</a><a href="#contact">联系我</a></nav>
     <button class="print-button" type="button" id="print">打印 / 存为 PDF <span aria-hidden="true">↗</span></button>
   </header>
   <main id="main">
@@ -39,8 +39,37 @@
       </aside>
     </section>
 
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading"><p class="eyebrow">01 / WORK EXPERIENCE</p><h2 id="experience-title">工作经历</h2></div>
+      <article class="project">
+        <div class="project-meta"><p class="date">2023.08 — 至今</p><h3>深圳时空壶</h3><div class="tags"><span>翻译耳机</span><span>蓝牙音频</span></div></div>
+        <div class="project-body"><p class="project-intro">负责 TWS 翻译耳机固件开发与项目交付，担任 W4 Pro、W4、X1 Pro 项目负责人。</p><ul>
+          <li>基于杰理 7016 平台开发翻译音频链路、BT / BLE 通信、骨导音频驱动与 OTA 升级方案。</li>
+          <li>解决多路音频同步、低概率断连及系统稳定性问题，推进自动化压测、产测与认证。</li>
+          <li>协同产品、APP、硬件、算法及生产团队，推动从需求分析、方案设计到量产交付的全过程。</li>
+        </ul></div>
+      </article>
+      <article class="project">
+        <div class="project-meta"><p class="date">2023.06 — 2023.08</p><h3>恒玄科技</h3><p class="role">FAE（现场应用工程师）</p></div>
+        <div class="project-body"></div>
+      </article>
+      <article class="project">
+        <div class="project-meta"><p class="date">2015.10 — 2023.06</p><h3>深圳市慧嘉智科技有限公司</h3><p class="role">嵌入式软件开发 · 研发部</p><div class="tags"><span>USB Audio</span><span>蓝牙 / 2.4G</span><span>Bootloader</span></div></div>
+        <div class="project-body"><p class="project-intro">负责游戏手柄、键鼠及 USB 周边等消费电子产品的软件开发，覆盖蓝牙与 2.4G 通信、USB 音频、固件升级及 APP 联调。</p><ul>
+          <li><strong>音频与外设：</strong>基于 USB + Codec 实现音频方案，通过环形缓冲、I²S / DMA 完成音频数据传输，并开发传感器、触摸板、RGB、马达等外设功能。</li>
+          <li><strong>无线与多芯片协同：</strong>开发和维护蓝牙协议栈、Nordic 2.4G 及 BLE 产品；承担 Telink、STM32 等多芯片方案的架构搭建、通信协议制定与固件联调。</li>
+          <li><strong>升级与应用联调：</strong>实现 USB / UART Bootloader 与双 MCU 升级；与上位机 APP 协作实现 Profile 配置、按键映射、宏编程及配置存储。</li>
+          <li><strong>量产交付：</strong>参与生产流程制定、蓝牙 BQB 认证、用户问题处理与固件维护；Switch 蓝牙及音频手柄项目实现 10 万以上量产。</li>
+        </ul></div>
+      </article>
+      <article class="project">
+        <div class="project-meta"><p class="date">2015.03 — 2015.10</p><h3>郑州椿长仪器仪表有限公司</h3><p class="role">软件工程师 · 工程部</p></div>
+        <div class="project-body"><ul><li>负责温湿度控制器软件开发，在温度控制器中实现 PID 算法，用于恒温箱控制。</li><li>结合温度曲线进行 PID 参数整定，优化响应速度与超调表现。</li></ul></div>
+      </article>
+    </section>
+
     <section class="section projects" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading"><p class="eyebrow">01 / SELECTED PROJECTS</p><h2 id="projects-title">项目经历</h2><p>围绕真实产品，解决音频、连接与量产中的具体问题。</p></div>
+      <div class="section-heading"><p class="eyebrow">02 / SELECTED PROJECTS</p><h2 id="projects-title">项目经历</h2><p>围绕真实产品，解决音频、连接与量产中的具体问题。</p></div>
       <article class="project">
         <div class="project-meta"><p class="date">2025.11 — 2026.05</p><h3>X1 Pro 翻译耳机</h3><p class="role">项目负责人</p><div class="tags"><span>BLE</span><span>TDM</span><span>OTA</span><span>射频测试</span></div></div>
         <div class="project-body"><p class="project-intro">面向翻译主机的 BLE 耳机方案。基于 W4 平台进行功能裁剪，适配充电仓、骨导音频与生产测试。</p>
@@ -77,7 +106,7 @@
     </section>
 
     <section class="section" id="skills" aria-labelledby="skills-title">
-      <div class="section-heading"><p class="eyebrow">02 / TECHNICAL EXPERTISE</p><h2 id="skills-title">专业技能</h2></div>
+      <div class="section-heading"><p class="eyebrow">03 / TECHNICAL EXPERTISE</p><h2 id="skills-title">专业技能</h2></div>
       <dl class="skill-list">
         <div><dt>蓝牙与音频</dt><dd>经典蓝牙、BLE 应用与通信协议、TWS、2.4G；USB Audio + Codec 方案开发；多路音频链路、Opus 接入及音频同步。</dd></div>
         <div><dt>平台与驱动</dt><dd>杰理 7016；ARM Cortex-M0 / M3 / M4、RISC-V；新唐、ST、Telink、Nordic、瑞昱等平台。UART、USB、I²C、SPI、I²S、TDM、PDM 外设开发与调试。</dd></div>
@@ -88,7 +117,7 @@
     </section>
 
     <section class="section education" aria-labelledby="education-title">
-      <div class="section-heading"><p class="eyebrow">03 / EDUCATION</p><h2 id="education-title">教育背景</h2></div>
+      <div class="section-heading"><p class="eyebrow">04 / EDUCATION</p><h2 id="education-title">教育背景</h2></div>
       <div><div class="education-line"><h3>河南理工大学 <span>自动化 · 本科</span></h3><p class="date">2011.09 — 2015.06</p></div><p>多次获得奖学金，参与学院实验室工作。全国大学生电子设计大赛省级三等奖。</p></div>
     </section>
 

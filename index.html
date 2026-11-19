@@ -4,10 +4,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#163e37">
-  <title>王树东｜嵌入式软件 · 蓝牙音频</title>
+  <title>王树东｜嵌入式软件 · TWS 翻译耳机</title>
   <meta name="description" content="王树东的个人简历：10 年以上嵌入式软件开发经验，专注蓝牙音频、TWS 翻译耳机、BLE 通信、音频驱动与量产交付。">
-  <meta property="og:title" content="王树东｜嵌入式软件 · 蓝牙音频">
-  <meta property="og:description" content="从音频链路、无线通信，到产品量产。10 年以上嵌入式软件开发经验。">
+  <meta property="og:title" content="王树东｜嵌入式软件 · TWS 翻译耳机">
+  <meta property="og:description" content="10 年以上嵌入式软件开发经验，专注蓝牙音频与 TWS 翻译耳机，主导从方案设计、固件开发到量产导入的全流程工作。">
   <meta property="og:type" content="profile">
   <meta property="og:url" content="https://shyden-wang.github.io/">
   <link rel="canonical" href="https://shyden-wang.github.io/">
@@ -54,12 +54,12 @@
         <div class="project-body"><p class="project-intro">负责 BES2600 系列平台客户开发支持，协助完成平台适配、功能调试与问题复现，协调内部研发推进问题修复及验证。</p></div>
       </article>
       <article class="project">
-        <div class="project-meta"><p class="date">2015.10 — 2023.06</p><h3>深圳市慧嘉智科技有限公司</h3><p class="role">嵌入式软件开发 · 研发部</p><div class="tags"><span>USB Audio</span><span>蓝牙 / 2.4G</span><span>Bootloader</span><span>陀螺仪驱动</span></div></div>
+        <div class="project-meta"><p class="date">2015.10 — 2023.06</p><h3>深圳市慧嘉智科技有限公司</h3><p class="role">嵌入式软件开发 · 研发部</p><div class="tags"><span>USB Audio</span><span>蓝牙 / 2.4G</span><span>Bootloader</span><span>IMU 驱动</span></div></div>
         <div class="project-body"><p class="project-intro">负责游戏手柄、键鼠及 USB 周边等消费电子产品的软件开发，覆盖蓝牙与 2.4G 通信、USB 音频、固件升级及 APP 联调。</p><ul>
-          <li><strong>音频与外设：</strong>基于 USB + Codec 实现音频方案，通过环形缓冲、I²S / DMA 完成音频数据传输，并开发六轴陀螺仪传感器、触摸板、RGB、马达等外设功能。</li>
+          <li><strong>音频与外设：</strong>基于 USB + Codec 实现音频方案，通过环形缓冲、I²S / DMA 完成音频数据传输，并开发六轴惯性传感器（IMU）、触摸板、RGB、马达等外设功能。</li>
           <li><strong>无线与多芯片协同：</strong>开发和维护蓝牙协议栈、Nordic 2.4G 及 BLE 产品；承担 Telink、STM32 等多芯片方案的架构搭建、通信协议制定与固件联调。</li>
           <li><strong>升级与应用联调：</strong>实现 USB / UART Bootloader 与双 MCU 升级；与上位机 APP 协作实现 Profile 配置、按键映射、宏编程及配置存储。</li>
-          <li><strong>量产交付：</strong>参与生产流程制定、蓝牙 BQB 认证、用户问题处理与固件维护；Switch 蓝牙及音频手柄项目实现 10 万以上量产。</li>
+          <li><strong>量产交付：</strong>参与生产流程制定、蓝牙 BQB 认证、用户问题处理与固件维护；Switch 蓝牙及音频手柄项目累计量产超过 10 万台。</li>
         </ul></div>
       </article>
     </section>
@@ -70,10 +70,10 @@
         <h3 class="project-group-title" id="timekettle-projects-title">时空壶 · 翻译耳机</h3>
       <article class="project">
         <div class="project-meta"><p class="date">2025.11 — 2026.05</p><h4>X1 Pro 翻译耳机</h4><p class="role">项目负责人<span class="company-name">深圳时空壶技术有限公司</span></p><div class="tags"><span>BLE</span><span>TDM</span><span>OTA</span><span>骨导</span><span>射频测试</span></div></div>
-        <div class="project-body"><p class="project-intro">面向翻译主机的 BLE 耳机方案。基于 W4 平台进行功能裁剪，适配充电仓、骨导音频与生产测试。</p>
+        <div class="project-body"><p class="project-intro">面向翻译主机的 BLE 耳机方案。基于 W4 平台进行功能裁剪，适配充电舱、骨导音频与生产测试。</p>
           <ul>
             <li><strong>通信与升级：</strong>裁剪经典蓝牙可发现、可连接功能，保留用于双 Bank 升级的 TWS 链路；实现开盖 BLE 连接、入仓组队检查及 OTA 流程。</li>
-            <li><strong>硬件适配：</strong>完成普通充电仓与串口通信方案，调试新骨导芯片的 TDM 驱动，打通从音频采集到算法输入的链路。</li>
+            <li><strong>硬件适配：</strong>完成普通充电舱与串口通信方案，调试新骨导芯片的 TDM 驱动，打通从音频采集到算法输入的链路。</li>
             <li><strong>测试与认证：</strong>开发麦克风、扬声器和骨导产测；完成 BLE DTM 射频测试方案，联调 CMW500，将偶发接收丢包率（PER）测试失败定位至芯片问题。</li>
             <li><strong>体验优化：</strong>适配翻译主机通信，优化 BLE 连接速度，降低功耗并改善续航。</li>
           </ul>
@@ -92,10 +92,10 @@
       </article>
       <article class="project">
         <div class="project-meta"><p class="date">2023.08 — 2025.03</p><h4>W4 Pro 翻译耳机</h4><p class="role">项目负责人<span class="company-name">深圳时空壶技术有限公司</span></p><div class="tags"><span>杰理 7016</span><span>BT + BLE</span><span>音频 Pipeline</span><span>产测</span></div></div>
-        <div class="project-body"><p class="project-intro">以电话翻译、音视频翻译及同传翻译为核心场景，主导音频方案设计、固件开发与量产交付，协调产品、APP、硬件、算法及生产团队完成产品落地。</p>
+        <div class="project-body"><p class="project-intro">主导 W4 Pro 翻译耳机的音频方案设计、固件开发与量产导入，协调产品、APP、硬件、算法及生产团队完成交付。</p>
           <ul>
             <li><strong>三类翻译场景：</strong>基于音频 Pipeline 搭建电话翻译、音视频翻译及同传翻译的音频链路；在经典蓝牙传输音频的同时，通过 BLE 传输多路 Opus 压缩音频，支持翻译功能与 APP 联调。</li>
-            <li><strong>整机功能：</strong>实现触摸、提示音、入耳检测、ENC、OTA 及蓝牙配置，开发智能充电仓配套方案与充电、开关机流程。</li>
+            <li><strong>整机功能：</strong>实现触摸、提示音、入耳检测、ENC、OTA 及蓝牙配置，开发智能充电舱配套方案与充电、开关机流程。</li>
             <li><strong>系统优化：</strong>协助算法移植、线程资源优化及双核资源分配；排查场景切换断连与死机，优化 Android / iOS 连接、通信稳定性、异步算法处理与功耗。</li>
             <li><strong>量产导入：</strong>开发串口产测指令、BLE 测试音频传输与三麦克风校准，推进烧录导入及蓝牙认证；基于 AES 与认证码实现算法授权校验。</li>
           </ul>
@@ -107,17 +107,17 @@
         <p class="project-group-description">从 USB 音频、无线通信到多芯片系统，积累完整的消费电子产品交付经验。</p>
       <article class="project">
         <div class="project-meta"><p class="date">2021.09 — 2023.01</p><h4>多芯片蓝牙方案</h4><p class="role">固件开发工程师<span class="company-name">深圳市慧嘉智科技有限公司</span></p><div class="tags"><span>Telink / STM32</span><span>BR/EDR</span><span>LC3</span></div></div>
-        <div class="project-body"><p class="project-intro">基于 Telink、STM32F042、STM32F103 的多芯片方案，负责整体架构搭建、通信协议制定及蓝牙端固件开发。</p><ul>
+        <div class="project-body"><p class="project-intro">负责基于 Telink、STM32F042、STM32F103 的多芯片产品研发，承担蓝牙端固件开发与多端联调，推进产品量产交付。</p><ul>
           <li><strong>架构与通信：</strong>设计多芯片协同方案及通信协议，实现面向多个主机的 BR/EDR 连接协议和 BLE 编程功能。</li>
           <li><strong>音频与多端联调：</strong>实现基于 LC3 编码的音频功能，协同 Android、iOS、PC 端 APP 完成功能开发与联调。</li>
           <li><strong>项目推进与交付：</strong>主导项目推进，协调固件、测试与 APP 开发，参与生产流程制定、蓝牙认证、用户反馈处理及固件升级。</li>
         </ul></div>
       </article>
       <article class="project">
-        <div class="project-meta"><p class="date">2018.12 — 2020.07</p><h4>Switch 蓝牙及音频手柄</h4><p class="role">固件开发工程师<span class="company-name">深圳市慧嘉智科技有限公司</span></p><div class="tags"><span>双 MCU</span><span>USB / 蓝牙</span><span>BQB</span><span>陀螺仪</span></div></div>
-        <div class="project-body"><p class="project-intro">基于 RDA5856 + NUC121 的双 MCU 方案，集成键鼠映射、蓝牙通信、音频及可编程配置，项目实现 10 万以上量产。</p><ul>
+        <div class="project-meta"><p class="date">2018.12 — 2020.07</p><h4>Switch 蓝牙及音频手柄</h4><p class="role">固件开发工程师<span class="company-name">深圳市慧嘉智科技有限公司</span></p><div class="tags"><span>双 MCU</span><span>USB / 蓝牙</span><span>BQB</span><span>IMU</span></div></div>
+        <div class="project-body"><p class="project-intro">基于 RDA5856 + NUC121 的双 MCU 方案，集成键鼠映射、蓝牙通信、音频及可编程配置，项目累计量产超过 10 万台。</p><ul>
           <li><strong>双 MCU 与升级：</strong>通过 UART 实现芯片间通信，打通 USB—UART—蓝牙数据链路；设计 USB 双 MCU 升级流程，由一个 MCU 临时承担烧录器功能完成另一芯片升级，再恢复自身正常固件。</li>
-          <li><strong>协议与资源调度：</strong>抓取并分析原装手柄通信数据，基于私有蓝牙协议栈实现蓝牙模式；通过 I²C 分时复用协调 RGB、陀螺仪、扩展芯片、加密芯片及电源管理模块。</li>
+          <li><strong>协议与资源调度：</strong>抓取并分析原装手柄通信数据，基于私有蓝牙协议栈实现蓝牙模式；通过 I²C 分时复用协调 RGB、IMU、扩展芯片、加密芯片及电源管理模块。</li>
           <li><strong>可编程交互：</strong>实现体感姿态解算及鼠标／摇杆映射，配合上位机实现按键自定义、宏及曲线配置；支持 8 个 Profile，并通过 SPI 外部 Flash 持久化存储。</li>
           <li><strong>认证与量产：</strong>通过蓝牙 BQB 认证，完成量产交付。</li>
         </ul></div>
@@ -126,7 +126,7 @@
         <div class="project-meta"><p class="date">2017.06 — 2018.06</p><h4>USB 音频 PS4 手柄</h4><p class="role">固件开发工程师<span class="company-name">深圳市慧嘉智科技有限公司</span></p><div class="tags"><span>USB Audio + Codec</span><span>I²S / DMA</span><span>Bootloader</span></div></div>
         <div class="project-body"><p class="project-intro">负责 USB 音频链路、外设驱动及固件升级开发，完成音频手柄开发与量产导入。</p><ul>
           <li><strong>音频链路：</strong>将 USB 音频端点数据写入环形缓冲区，通过读写指针管理缓冲状态，经 I²S / DMA 将数据送入 DAC，实现音频播放。</li>
-          <li><strong>整机驱动：</strong>开发陀螺仪、触摸板、RGB、加密芯片与马达等外设，完成 USB、I²C、PWM、GPIO 资源集成。</li>
+          <li><strong>整机驱动：</strong>开发 IMU、触摸板、RGB、加密芯片与马达等外设，完成 USB、I²C、PWM、GPIO 资源集成。</li>
           <li><strong>固件维护：</strong>开发 Bootloader，并配合上位机 APP 通过 USB 完成固件升级。</li>
         </ul></div>
       </article>

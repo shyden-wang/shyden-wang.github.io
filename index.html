@@ -44,9 +44,9 @@
         <div class="project-meta"><p class="date">2023.08 — 至今</p><h3>深圳时空壶技术有限公司</h3><p class="role">嵌入式软件工程师</p><div class="tags"><span>翻译耳机</span><span>蓝牙音频</span></div></div>
         <div class="project-body"><p class="project-intro">担任 W4 Pro、W4、X1 Pro、LiveTalk 等翻译耳机项目负责人，主导方案设计、固件开发及量产导入，协调产品、APP、硬件、算法与生产团队，推进项目全流程交付。</p><ul>
           <li><strong>TWS 整机开发：</strong>基于杰理 7016 平台，完成触控、LED、提示音、蓝牙双连接及 OTA 等基础功能开发与调试，打通整机交互与升级流程。</li>
-          <li><strong>核心翻译功能：</strong>实现音视频翻译、电话翻译及同传翻译；调试 BLE、SPP、GATT over EDR 连接方案，设计 APP 通信协议并完成联调，解决算法适配与模式切换异常。</li>
+          <li><strong>核心翻译功能：</strong>实现音视频翻译、电话翻译及同传翻译；调试 BLE、SPP、GATT over EDR 连接方案，设计 APP 通信协议并完成联调，解决算法适配问题及模式切换异常。</li>
           <li><strong>充电舱与驱动适配：</strong>设计开发分果果充电舱方案，实现充电管理与开关机控制，解决异常上下电问题；调试 PDM、TDM、I²S、I²C 驱动，导入多款骨导芯片及入耳检测方案。</li>
-          <li><strong>稳定性与量产：</strong>设计开发耳机与充电舱全链路产测方案，完成 MES 对接、船运模式及算法测试导入；通过自动化压测定位低概率断连、死机等问题，推进认证与量产问题闭环。</li>
+          <li><strong>稳定性与量产：</strong>设计开发耳机与充电舱全链路产测方案，完成 MES 对接、船运模式及算法测试导入；通过自动化压测定位低概率断连、死机等问题，推进认证及生产导入，跟进量产问题修复与验证。</li>
         </ul></div>
       </article>
       <article class="project">
@@ -73,7 +73,7 @@
             <li><strong>通信与升级：</strong>裁剪经典蓝牙可发现、可连接功能，保留用于双 Bank 升级的 TWS 链路；实现开盖 BLE 连接、入仓组队检查及 OTA 流程。</li>
             <li><strong>硬件适配：</strong>完成普通充电仓与串口通信方案，调试新骨导芯片的 TDM 驱动，打通从音频采集到算法输入的链路。</li>
             <li><strong>测试与认证：</strong>开发麦克风、扬声器和骨导产测；完成 BLE DTM 射频测试方案，联调 CMW500，将偶发接收丢包率（PER）测试失败定位至芯片问题。</li>
-            <li><strong>体验优化：</strong>适配翻译主机通信，优化 BLE 连接速度与功耗续航。</li>
+            <li><strong>体验优化：</strong>适配翻译主机通信，优化 BLE 连接速度，降低功耗并改善续航。</li>
           </ul>
         </div>
       </article>
@@ -108,7 +108,7 @@
         <div class="project-body"><p class="project-intro">基于 Telink、STM32F042、STM32F103 的多芯片方案，负责整体架构搭建、通信协议制定及蓝牙端固件开发。</p><ul>
           <li><strong>架构与通信：</strong>设计多芯片协同方案及通信协议，实现面向多个主机的 BR/EDR 连接协议和 BLE 编程功能。</li>
           <li><strong>音频与多端联调：</strong>实现基于 LC3 编码的音频功能，协同 Android、iOS、PC 端 APP 完成功能开发与联调。</li>
-          <li><strong>交付闭环：</strong>主导项目推进，协调固件、测试与 APP 开发，参与生产流程制定、蓝牙认证、用户反馈处理及固件升级。</li>
+          <li><strong>项目推进与交付：</strong>主导项目推进，协调固件、测试与 APP 开发，参与生产流程制定、蓝牙认证、用户反馈处理及固件升级。</li>
         </ul></div>
       </article>
       <article class="project">
@@ -116,13 +116,13 @@
         <div class="project-body"><p class="project-intro">基于 RDA5856 + NUC121 的双 MCU 方案，集成键鼠映射、蓝牙通信、音频及可编程配置，项目实现 10 万以上量产。</p><ul>
           <li><strong>双 MCU 与升级：</strong>通过 UART 实现芯片间通信，打通 USB—UART—蓝牙数据链路；设计 USB 双 MCU 升级流程，由一个 MCU 临时承担烧录器功能完成另一芯片升级，再恢复自身正常固件。</li>
           <li><strong>协议与资源调度：</strong>抓取并分析原装手柄通信数据，基于私有蓝牙协议栈实现蓝牙模式；通过 I²C 分时复用协调 RGB、陀螺仪、扩展芯片、加密芯片及电源管理模块。</li>
-          <li><strong>可编程交互：</strong>开发体感姿态与鼠标／摇杆映射，配合上位机实现按键自定义、宏及曲线配置；支持 8 个 Profile，并通过 SPI 外部 Flash 持久化存储。</li>
+          <li><strong>可编程交互：</strong>实现体感姿态解算及鼠标／摇杆映射，配合上位机实现按键自定义、宏及曲线配置；支持 8 个 Profile，并通过 SPI 外部 Flash 持久化存储。</li>
           <li><strong>认证与量产：</strong>通过蓝牙 BQB 认证，完成量产交付。</li>
         </ul></div>
       </article>
       <article class="project">
         <div class="project-meta"><p class="date">2017.06 — 2018.06</p><h3>USB 音频 PS4 手柄</h3><p class="role">固件开发工程师 · 深圳市慧嘉智科技有限公司</p><div class="tags"><span>USB Audio + Codec</span><span>I²S / DMA</span><span>Bootloader</span></div></div>
-        <div class="project-body"><p class="project-intro">负责 USB 音频链路、外设驱动及固件升级开发，完成音频手柄方案并投入量产。</p><ul>
+        <div class="project-body"><p class="project-intro">负责 USB 音频链路、外设驱动及固件升级开发，完成音频手柄开发与量产导入。</p><ul>
           <li><strong>音频链路：</strong>将 USB 音频端点数据写入环形缓冲区，通过读写指针管理缓冲状态，经 I²S / DMA 将数据送入 DAC，实现音频播放。</li>
           <li><strong>整机驱动：</strong>开发陀螺仪、触摸板、RGB、加密芯片与马达等外设，完成 USB、I²C、PWM、GPIO 资源集成。</li>
           <li><strong>固件维护：</strong>开发 Bootloader，并配合上位机 APP 通过 USB 完成固件升级。</li>
